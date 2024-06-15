@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/servico.css" />
+  <title>Cadastrar Serviço</title>
+</head>
+<body>
+<form id="registrationForm">
+  <div class="container">
+    <div class="card">
+      <h1>Cadastrar Serviço</h1>
+
+      <div id="msgError"></div>
+      <div id="msgSuccess"></div>
+
+      <div class="label-float">
+        <input type="text" id="descricao" placeholder=" " required />
+        <label id="labelDescricao" for="descricao">Descrição</label>
+      </div>
+
+      <div class="label-float">
+        <input type="text" id="preco" placeholder=" " required />
+        <label id="labelPreco" for="preco">Preço</label>
+      </div>
+
+      <div class="justify-center">
+        <button type="submit">Cadastrar</button>
+      </div>
+    </div>
+  </div>
+</form>
+<script src="/js/servico.js"></script>
+</body>
+</html>
